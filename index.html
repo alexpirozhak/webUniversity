@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <img class="img-logo" src="./images/logo(TC).png" alt="logo" />
+
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+      <label for="menu-toggle" class="burger-menu">
+        <svg
+          class="burger-menu-icon"
+          width="28px"
+          height="28px"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M4 18L20 18M4 12L20 12M4 6L20 6"
+            stroke-width="2"
+            stroke-linecap="round"
+          />
+        </svg>
+      </label>
+
+      <nav class="nav-menu">
+        <ul>
+          <li><a href="#promo">Головна</a></li>
+          <li><a href="#education">Навчання</a></li>
+          <li><a href="#team">Наша команда</a></li>
+          <li><a href="#abonements">Абонементи</a></li>
+          <li><a href="#contacts">Контакти</a></li>
+        </ul>
+      </nav>
+
+      <a class="btn-promo" href="#">Записатися на урок</a>
+    </header>
+
+    <section id="promo" class="promo">
+      <div class="container">
+        <div class="locations">
+          <h2>Київ</h2>
+          <h2>Львів</h2>
+          <h2 class="loc-olnine">Онлайн</h2>
+        </div>
+
+        <div class="promo-text">
+          <h1>Онлайн-школа музики</h1>
+          <p>Навчайся - де би ти не був</p>
+          <p class="promo-border">Перше заняття – безкоштовне!</p>
+        </div>
+
+        <form class="discount-form" action="">
+          <input type="tel" placeholder="+38 (999) 999-99-99" />
+          <input type="text" placeholder="Ім’я" />
+          <button type="submit">Записатись</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="education" class="education">
+      <div class="container">
+        <div class="education-text">
+          <h3>Навчаємо</h3>
+          <p class="e-subtext">
+            Без нудного зубріння, з цікавим та продуктивним процесом!
+          </p>
+        </div>
+        <div class="e-grid">
+          <div class="e-card">
+            <div class="e-image">
+              <img src="/images/treble_clef.png" alt="" />
+            </div>
+            <p>Дітей до 4 років</p>
+          </div>
+          <div class="e-card">
+            <div class="e-image">
+              <img src="/images/treble_clef.png" alt="" />
+            </div>
+            <p>Підлітків</p>
+          </div>
+          <div class="e-card">
+            <div class="e-image">
+              <img src="/images/treble_clef.png" alt="" />
+            </div>
+            <p>Дорослих без досвіду</p>
+          </div>
+          <div class="e-card">
+            <div class="e-image">
+              <img src="/images/treble_clef.png" alt="" />
+            </div>
+            <p>Любителів співати для себе чи в караоке</p>
+          </div>
+          <div class="e-card">
+            <div class="e-image">
+              <img src="/images/treble_clef.png" alt="" />
+            </div>
+            <p>Музикантів з базовим досвідом</p>
+          </div>
+          <div class="e-card">
+            <div class="e-image">
+              <img src="/images/treble_clef.png" alt="" />
+            </div>
+            <p>Професійних музикантів</p>
+          </div>
+        </div>
+        <div class="e-video">
+          <video
+            width="560"
+            height="315"
+            controls
+            src="/video/Drevo - Smaragdove Nebo (Mylancore Remix).mp4"
+          ></video>
+        </div>
+        <div class="callback">
+          <div class="cb-buton">
+            <a href=""><img src="/images/ultra_message.svg" alt="message" /></a>
+          </div>
+          <div class="ph-buton">
+            <a href=""
+              ><img src="/images/ultra_telephone.svg" alt="phone" />
+            </a>
+          </div>
+          <div class="tg-buton">
+            <a href=""
+              ><img src="/images/ultra_telegram.svg" alt="telegram" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="direction">
+      <div class="container">
+        <h3>Обирай напрям:</h3>
+        <div class="selections">
+          <p class="s-guitar">Гітара</p>
+          <p>Вокал</p>
+          <p>Піаніно</p>
+        </div>
+        <div class="about_direction">
+          <div class="a_d_text">
+            <h4>Гітара</h4>
+            <p>
+              універсальний інструмент, на якому можна заграти все, що завгодно
+            </p>
+            <div class="a_d_qiuestion">
+              <p>Чому вчитися з нами ефективно?</p>
+            </div>
+            <img src="/images/Features.svg" alt="Features" />
+          </div>
+          <div class="d_video">
+            <iframe
+              width="800"
+              height="450"
+              src="https://www.youtube.com/embed/NyuRqKgP2T4?si=2EUSyglGpDLz0fFM"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="team" class="team">
+      <div class="container">
+        <div class="t-content">
+          <div class="team-text">
+            <h3>Наша команда</h3>
+            <div class="description">
+              <div class="d-text">
+                <img src="/images/fire.svg" alt="fire" />
+                <p>Молоді, енергійні та пристрасні до своєї справи викладачі</p>
+              </div>
+              <div class="d-text">
+                <img src="/images/Trophy.svg" alt="trophy" />
+                <p>Досвідчені артисти, лауреати конкурсів та фестивалів</p>
+              </div>
+              <div class="d-text">
+                <img
+                  src="/images/Magnifying Glass Tilted Left.svg"
+                  alt="glass"
+                />
+                <p>Регулярно проходять перевірку якості занять</p>
+              </div>
+              <div class="d-text">
+                <img src="/images/darts.svg" alt="darts" />
+                <p>Підбираємо викладача під ваші цілі та інтереси</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="team-images-wrapper">
+            <div class="team-bg">
+              <div class="team-images">
+                <div class="team-image teacher-1">
+                  <p>Викладач</p>
+                  <img src="/images/gigachad.jpg" alt="team photo" />
+                  <p>Досвід роботи</p>
+                  <p>15 років</p>
+                </div>
+                <div class="team-image teacher-2">
+                  <p>Викладач</p>
+                  <img src="/images/gigachad.jpg" alt="team photo" />
+                  <p>Досвід роботи</p>
+                  <p>15 років</p>
+                </div>
+                <div class="team-image teacher-3">
+                  <p>Викладач</p>
+                  <img src="/images/gigachad.jpg" alt="team photo" />
+                  <p>Досвід роботи</p>
+                  <p>15 років</p>
+                </div>
+                <div class="team-image teacher-4">
+                  <p>Викладач</p>
+                  <img src="/images/gigachad.jpg" alt="team photo" />
+                  <p>Досвід роботи</p>
+                  <p>15 років</p>
+                </div>
+                <div class="team-image teacher-5">
+                  <p>Викладач</p>
+                  <img src="/images/gigachad.jpg" alt="team photo" />
+                  <p>Досвід роботи</p>
+                  <p>15 років</p>
+                </div>
+                <div class="team-image teacher-6">
+                  <p>Викладач</p>
+                  <img src="/images/gigachad.jpg" alt="team photo" />
+                  <p>Досвід роботи</p>
+                  <p>15 років</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="all-teachers">
+          <a href="">Усі викладачі</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="discount" class="discount">
+      <div class="container">
+        <h3>Отримай знижку 10%!</h3>
+        <div class="discount-text">
+          <img src="/images/microphone.svg" alt="microphone" />
+          <p>
+            Пройди коротке опитування та отримай знижку на перший абонемент!
+          </p>
+          <img src="/images/guitar.svg" alt="" />
+        </div>
+        <div class="go">
+          <a href="">Погнали!</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="abonements" class="abonement">
+      <div class="container">
+        <div class="abonments-title">Абонементи</div>
+        <div class="l-duration">
+          <div class="duration-border">
+            <div class="duration">
+              <div class="duration-switch">
+                <p>45 хвилин</p>
+              </div>
+              <div class="duration-switch">
+                <p>60 хвилин</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cards">
+          <div class="card">
+            <div class="card-title"><p>Мінімальний</p></div>
+            <div class="card-header-l">
+              <div class="card-header"><p>4 заняття</p></div>
+            </div>
+            <div class="c-string-l">
+              <div class="c-string"></div>
+            </div>
+            <div class="conditions">
+              <ul class="card-list">
+                <li>1 урок на тиждень</li>
+                <li>Заморозка абонементу на 7 днів</li>
+              </ul>
+            </div>
+            <div class="costs">
+              <div class="price"><p>2000 грн.</p></div>
+              <div class="lesson-price"><p>500 грн/год</p></div>
+              <div class="save"><p>Економія 400 грн.</p></div>
+            </div>
+          </div>
+
+          <div class="card-pop">
+            <div class="card-title-pop"><p>Популярний</p></div>
+            <div class="card-header-l">
+              <div class="card-header-pop"><p>8 занять</p></div>
+            </div>
+
+            <div class="c-string-l">
+              <div class="c-string"></div>
+            </div>
+            <div class="conditions">
+              <ul class="card-list">
+                <li>2 уроки на тиждень</li>
+                <li>Заморозка абонементу на 14 днів</li>
+              </ul>
+            </div>
+            <div class="costs">
+              <div class="price"><p>3800 грн.</p></div>
+              <div class="lesson-price"><p>475 грн/год</p></div>
+              <div class="save"><p>Eкономія 1000 грн.</p></div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-title"><p>Максимальний</p></div>
+            <div class="card-header-l">
+              <div class="card-header"><p>12 занять</p></div>
+            </div>
+
+            <div class="c-string-l">
+              <div class="c-string"></div>
+            </div>
+            <div class="conditions">
+              <ul class="card-list">
+                <li>3 уроки на тиждень</li>
+                <li>Заморозка абонементу на 30 днів</li>
+              </ul>
+            </div>
+
+            <div class="costs">
+              <div class="price"><p>5400 грн.</p></div>
+              <div class="lesson-price"><p>450 грн/год</p></div>
+              <div class="save"><p>Економія 1800 грн.</p></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="trial-btn">
+          <p>Записатися на пробний урок вартістю 200 грн.</p>
+        </div>
+
+        <div class="single-lessons">
+          <p>Разовий урок 45 хв — 600 грн</p>
+          <p>Разовий урок 60 хв — 700 грн</p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
